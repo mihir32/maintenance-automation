@@ -20,7 +20,7 @@ On filling up all this, your complaint form will be sent to the authorities and 
 
 
 Introduction
-The main problem is improper and insufficient method to record the data of complaints in VIT hostels. Such inefficiency in maintaining proper record leads to complaints not been looked into and pending complaints remain or are overloaded.
+The main problem is improper and insufficient method to record the data of complaints in LNMIIT hostels. Such inefficiency in maintaining proper record leads to complaints not been looked into and pending complaints remain or are overloaded.
 The hostel authorities face numerous issues regarding fixing such complaints  and to keep in track of solved complaints.
 We are creating a web based application to resolve this problem where this website will cater to all the needs that the manual complaint registering system fails to satisfy.The website is very compatible and user – friendly with an attractive user interface.
 
@@ -31,4 +31,4 @@ We have used three different actors in this project , thereby three different mo
 •	USER MODULE – The user module is for the hostel residents or even the staff who would want to complain.
 
 CONCLUSION
-This project can help save time in many aspects and will be of much use for students that need to fix problems at a faster rate. With our project, we aim at making a digital well-being and less time consuming way to register complaints in an organized and systematic manner in VIT’s database. Our project will be take our an idea evaluation for VIT’s software development circle.
+This project can help save time in many aspects and will be of much use for students that need to fix problems at a faster rate. With our project, we aim at making a digital well-being and less time consuming way to register complaints in an organized and systematic manner in LNMIIT’s database. Our project will be take our an idea evaluation for LNMIIT’s software development circle.
