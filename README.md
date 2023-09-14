@@ -1,34 +1,137 @@
-# Maintenance_Automation
-Currently in hostels, complaints are recorded in books. The complaints are filled but it is tough to find the pending complaints since it is written on different pages of a book. Also, different types of complaints are all registered in the same book. When a technician in a particular field goes through the book to fix the complaint it will be hard to keep track of which complaints come under his domain. Hence, categorization of complaints is not done while registering them on books.  The hostel authorities face issues regarding fixing of complaints in the hostel. The complaints are recorded in a notebook and it is difficult to keep track of which complaint is already fixed and which is not.  We are creating a website in such a way that there is a provision for the hostel complaints in the website. While registering a complaint you will have to choose the type of complaint. Any types of complaints are welcome
 
-. The type of complaints include:-
-1.)	Mess Complaints
-2.)	Electrical Complaints
-3.)	Architectural Complaints
-4.)	Wi-Fi Complaints
-5.)	Washroom Complaints
-6.)	Hygiene Complaints
-Also, while registering a complaint, the user will have to enter the following details for identification. This includes:-
-1.)	Full Name
-2.)	Registration Number
-3.)	Gender
-4.)	Block
-5.)	Room number
-6.)	Subject
-7.)	Complaint
-On filling up all this, your complaint form will be sent to the authorities and they can click on “Done” once the complaint is fixed.
+# Maintenance Automation for LNMIIT Hostels
+
+## Overview
+
+The Maintenance Automation project aims to replace the manual, notebook-based complaint registration system in LNMIIT hostels with a streamlined, digitized solution. The project addresses the inefficiencies of the manual system, such as lack of categorization and tracking, by offering a comprehensive and user-friendly web application.
+
+## Table of Contents
+
+- [Features](#features)
+  - [Complaint Categories](#complaint-categories)
+  - [User Identification](#user-identification)
+  - [Status Tracking](#status-tracking)
+- [Modules](#modules)
+  - [Admin Module](#admin-module)
+  - [Engineer Module](#engineer-module)
+  - [User Module](#user-module)
+- [Technologies Used](#technologies-used)
+- [Security Considerations](#security-considerations)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 
-Introduction
-The main problem is improper and insufficient method to record the data of complaints in LNMIIT hostels. Such inefficiency in maintaining proper record leads to complaints not been looked into and pending complaints remain or are overloaded.
-The hostel authorities face numerous issues regarding fixing such complaints  and to keep in track of solved complaints.
-We are creating a web based application to resolve this problem where this website will cater to all the needs that the manual complaint registering system fails to satisfy.The website is very compatible and user – friendly with an attractive user interface.
+## Features
 
-MODULE DESCRIPTION
-We have used three different actors in this project , thereby three different modules.
-•	ADMIN MODULE – The admin module is specifically for the admin whose task is to assign each complaint to an engineer.
-•	ENGINEER MODULE – The engineer module is for those engineers or workers who fix the complaints assigned to them and provide a feedback for the same.
-•	USER MODULE – The user module is for the hostel residents or even the staff who would want to complain.
+### Complaint Categories
 
-CONCLUSION
-This project can help save time in many aspects and will be of much use for students that need to fix problems at a faster rate. With our project, we aim at making a digital well-being and less time consuming way to register complaints in an organized and systematic manner in LNMIIT’s database. Our project will be take our an idea evaluation for LNMIIT’s software development circle.
+- Mess Complaints
+- Electrical Complaints
+- Architectural Complaints
+- Wi-Fi Complaints
+- Washroom Complaints
+- Hygiene Complaints
+
+### User Identification
+
+To register a complaint, users need to provide:
+
+- Full Name
+- Registration Number
+- Gender
+- Block
+- Room Number
+- Subject
+- Complaint Details
+
+### Status Tracking
+
+After a complaint is registered, authorities can track its status and mark it as "Done" upon resolution.
+
+## Modules
+
+### Admin Module
+
+- View and categorize incoming complaints.
+- Assign complaints to appropriate engineers.
+
+### Engineer Module
+
+- View assigned complaints.
+- Mark complaints as resolved and provide feedback.
+
+### User Module
+
+- Register new complaints.
+- Track the status of registered complaints.
+
+## Technologies Used
+
+- PHP
+- MySQL
+- HTML, CSS, Bootstrap
+- JavaScript
+
+## Security Considerations
+
+- Secure authentication for admins, engineers, and users.
+- Encrypted password storage (pending implementation).
+- SQL Injection protection (pending implementation).
+
+## Installation
+
+Follow these steps to get the Maintenance_Automation project up and running on your local machine:
+
+### Prerequisites
+
+- PHP 7.x or higher
+- MySQL Server 5.x or higher
+- PHPMyAdmin (for database management)
+
+### Steps
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/mishra-mihir/maintenance-automation.git
+    ```
+
+2. **Navigate to Project Directory**
+    ```bash
+    cd maintenance-automation
+    ```
+
+3. **Install MySQL Server and PHPMyAdmin**
+    - For Windows, you can use [XAMPP](https://www.apachefriends.org/index.html).
+    - For macOS, you can use [MAMP](https://www.mamp.info/en/).
+    - For Linux, you can install MySQL Server and PHPMyAdmin directly from the package repository.
+
+4. **Create Database**
+    - Open PHPMyAdmin, create a new database and import the `app.sql` file.
+
+5. **Configure Database Connection**
+    - Edit the `core/config.php` file to include your database details.
+
+6. **Run the Application**
+    - For Windows and macOS, start your XAMPP or MAMP servers and navigate to the project directory in the browser.
+    - For Linux, move the project directory to `/var/www/html/` and start the Apache and MySQL services. Then, navigate to the project directory in the browser.
+
+Congratulations! The application should now be running on your local server.
+
+
+## Contributing
+
+ - Feel free creating a fork or submitting a pull request.
+
+## License
+- General Open Source Licence (MIT)/
+## Acknowledgements
+
+We extend our heartfelt gratitude to the following individuals and institutions for their invaluable guidance and support throughout the development of this project:
+
+- **Dr. Shweta Saharan**: For her academic guidance and constant encouragement.
+- **Mr. Vikas Bajpai**: For his technical insights and hands-on support.
+- **LNMIIT**: For providing an environment conducive to learning and innovation.
+
+This project was a collaborative effort by Mihir Mishra, Aneesh Khunteta, Vinay Sunil Bhagwat, and was part of a college course at LNMIIT.
