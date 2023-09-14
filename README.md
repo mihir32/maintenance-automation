@@ -94,7 +94,7 @@ Follow these steps to get the Maintenance_Automation project up and running on y
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/mishra-mihir/maintenance-automation.git
+    git clone https://github.com/mihir32/maintenance-automation.git
     ```
 
 2. **Navigate to Project Directory**
